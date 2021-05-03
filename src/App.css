@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.App{
+  padding:1rem;
+}
+.App button{
+  color:white;
+  padding:5px;
+  border:1px solid #000000;
+  background-color:black;
+  border-radius: 50%;
+}
+.container-menu ul{
+  display: inline-block;
+  margin-top:1rem;
+  padding:1rem;
+  list-style:none;
+  background-color:rgba(0,0,0,0.7);
+  border-radius:10px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a{
+  color:black;
+  width: 100%;
+  display:inline-block;
+  background-color:black;
+  background-color: honeydew;
+  text-decoration: none;
+  text-align:center;
+  padding: 5px;
+  border-radius:10px;
+  margin-bottom:1rem;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:hover{
+  color:white;
+  background-color: rgb(164, 168, 164);
+}
